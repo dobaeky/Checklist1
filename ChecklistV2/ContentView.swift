@@ -12,18 +12,23 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List {
-                Text(checklistItems[0])
-                    .onTapGesture {
-                        self.checklistItems[0] = "Take the dog to the vet"
-                    }
-                Text(checklistItems[1])
-                Text(checklistItems[2])
-                Text(checklistItems[3])
-                Text(checklistItems[4])
+                ForEach(checklistItems, id: \.self) { item in Text(item)
+                }
+                
             } // End of list
             .navigationBarTitle("Checklist")
+            .onAppear() {
+                self.printChecklistContents()
+            }
         } // End of navigationView
     } // End of body
+    
+    //Method
+    func printChecklistContents() {
+        for item in checklistItems {
+            print(item)
+        }
+    }
 } // End of ContentView
 
 struct ContentView_Previews: PreviewProvider {
