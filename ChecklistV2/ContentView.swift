@@ -14,7 +14,11 @@ struct ContentView: View {
             List {
                 ForEach(checklistItems, id: \.self) { item in Text(item)
                     .onTapGesture {
-                        self.checklistItems.append(item)
+                        let indexesToRemove = IndexSet(integersIn: 0...4)
+                        print("indexesToRemove=",indexesToRemove)
+                        self.checklistItems.remove(atOffsets: indexesToRemove)
+                        //self.checklistItems.remove(at: 0)
+                        //self.checklistItems.append(item)
                         self.printChecklistContents()
                     }
                 }
