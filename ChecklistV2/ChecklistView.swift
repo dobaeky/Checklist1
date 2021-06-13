@@ -18,8 +18,8 @@ struct ChecklistView: View {
     var body: some View {
         NavigationView{
             List {
-                ForEach(checklist.items) { checklistItem in
-                    RowView(checklistItem: checklistItem)
+                ForEach(checklist.items) { index in
+                    RowView(checklistItem: self.$checklist.items[index])
                 } // End of ForEach
                 .onDelete(perform: checklist.deleteListItem)
                 .onMove(perform: checklist.moveListItem)
