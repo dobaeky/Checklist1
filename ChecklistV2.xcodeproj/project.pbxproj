@@ -17,6 +17,7 @@
 		5ABBA8A1266CC9E700F9CF21 /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8A0266CC9E700F9CF21 /* Checklist.swift */; };
 		5ABBA8A3266CCD0D00F9CF21 /* EditChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8A2266CCD0D00F9CF21 /* EditChecklistItemView.swift */; };
 		5ABBA8A52675CDAD00F9CF21 /* NewChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8A42675CDAD00F9CF21 /* NewChecklistItemView.swift */; };
+		5ABBA8A72675D42C00F9CF21 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABBA8A62675D42C00F9CF21 /* RowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5ABBA8A0266CC9E700F9CF21 /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		5ABBA8A2266CCD0D00F9CF21 /* EditChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditChecklistItemView.swift; sourceTree = "<group>"; };
 		5ABBA8A42675CDAD00F9CF21 /* NewChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChecklistItemView.swift; sourceTree = "<group>"; };
+		5ABBA8A62675D42C00F9CF21 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				5ABBA8A0266CC9E700F9CF21 /* Checklist.swift */,
 				5ABBA8A2266CCD0D00F9CF21 /* EditChecklistItemView.swift */,
 				5ABBA8A42675CDAD00F9CF21 /* NewChecklistItemView.swift */,
+				5ABBA8A62675D42C00F9CF21 /* RowView.swift */,
 			);
 			path = ChecklistV2;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				5ABBA8A1266CC9E700F9CF21 /* Checklist.swift in Sources */,
 				5ABBA88B265CC87C00F9CF21 /* AppDelegate.swift in Sources */,
 				5ABBA88D265CC87C00F9CF21 /* SceneDelegate.swift in Sources */,
+				5ABBA8A72675D42C00F9CF21 /* RowView.swift in Sources */,
 				5ABBA88F265CC87C00F9CF21 /* ChecklistView.swift in Sources */,
 				5ABBA8A3266CCD0D00F9CF21 /* EditChecklistItemView.swift in Sources */,
 				5ABBA8A52675CDAD00F9CF21 /* NewChecklistItemView.swift in Sources */,
